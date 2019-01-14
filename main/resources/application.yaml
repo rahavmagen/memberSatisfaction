@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    jndi-name: java:comp/env/jdbc/Connection1PG
+  jackson:
+    deserialization:
+      accept-single-value-as-array: true
+  jpa:
+    show-sql: true
+    open-in-view: true
+    properties:
+      hibernate.temp.use_jdbc_metadata_defaults: false
+      
